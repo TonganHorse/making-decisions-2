@@ -49,9 +49,9 @@ let evensArr = []
  for (let i = 0; i < nums.length; i++){
    if( nums[i] % 2 === 0){
     evensArr.push(nums[i])
-    console.log(evensArr)
-   }
   }
+}
+console.log(evensArr)
  
  
 
@@ -94,7 +94,7 @@ var myFavoriteNumbers = [4,8,12,16,20,24];
 */
 
 //Code Here
-let somenum = myFavoriteNumbers[4];
+ let somenum = myFavoriteNumbers[4];
 
 ////////// PROBLEM 7 //////////
 
@@ -105,7 +105,7 @@ let somenum = myFavoriteNumbers[4];
 if (myFavoriteNumbers.length < 7) {
   console.log('There are not enough elements in this array')
 } else if (myFavoriteNumbers.length > 7) {
-  somenum = myFavoriteNumbers[7]
+  somenum = myFavoriteNumbers[6]
 }
 
 
@@ -122,7 +122,7 @@ var listOfNumbers = [1,2,3,4,5,6,7,8,9,10,11,12];
 //Code Here
 for ( let i = 0; i < listOfNumbers.length; i++) {
   if ( listOfNumbers[i] % 3 === 0) {
-    console.log(`${i} is divisible by 3`)
+    console.log(listOfNumbers[i] +' '+ 'is divisible by 3')
   } else {
     console.log(listOfNumbers[i])
   }
@@ -149,7 +149,7 @@ for ( let i = 4; i > -1 ; i--) {
 // Switch statements can be excellent alternatives to if blocks. Look up switch statements (I recommend W3 Schools) and try to implement one for the following.
 
 // Do not edit the code below.
-let letterGrade = 'B'
+let letterGrade = 'A'
 // Do not edit the code above.
 
 /* Use a switch statement on 'letterGrade' and console.log the appropriate response.
